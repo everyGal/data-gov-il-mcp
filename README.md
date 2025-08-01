@@ -1,6 +1,7 @@
 # Data.gov.il MCP Server
 
-[![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-blue)](https://modelcontextprotocol.io/) [![MIT License](https://img.shields.io/badge/License-MIT-green)](LICENSE) ![Version](https://img.shields.io/badge/version-2.0.0-blue)
+[![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-blue)](https://modelcontextprotocol.io/) [![License: MIT-NC](https://img.shields.io/badge/license-MIT--NC-blue)](LICENSE)
+ ![Version](https://img.shields.io/badge/version-2.0.0-blue)
 
 > 🇮🇱 **MCP server for accessing Israeli Government Open Data through data.gov.il**
 
