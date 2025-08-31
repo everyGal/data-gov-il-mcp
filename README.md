@@ -1,9 +1,8 @@
+````markdown
 # Data.gov.il MCP Server
 
 [![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-blue)](https://modelcontextprotocol.io/) [![License: MIT-NC](https://img.shields.io/badge/license-MIT--NC-blue)](LICENSE)
- ![Version](https://img.shields.io/badge/version-2.0.0-blue)
-
-> 🇮🇱 **MCP server for accessing Israeli Government Open Data through data.gov.il**
+ ![Version](https://img.shields.io/badge/version-2.1.0-blue)> 🇮🇱 **MCP server for accessing Israeli Government Open Data through data.gov.il**
 
 Enables Claude and other AI assistants to search, discover, and analyze thousands of government datasets from Israel's open data portal.
 
@@ -36,15 +35,21 @@ Add to your Claude Desktop config:
 
 Restart Claude Desktop and look for the 🔧 MCP tools icon.
 
-## 🛠️ Available Tools (v2.0.0)
+## 🛠️ Available Tools (v2.1.0)
 
-- **🏷️ list_available_tags** – Explore curated tags by topic/category (NEW)
-- **🔍 search_tags** – Search for tags by Hebrew/English keyword (NEW)
+### Data Discovery & Search
+- **🏷️ list_available_tags** – Explore curated tags by topic/category
+- **🔍 search_tags** – Search for tags by Hebrew/English keyword
 - **🔍 find_datasets** - Search for datasets by keywords (Hebrew/English)
 - **📊 get_dataset_info** - Get detailed information about any dataset  
 - **🎯 search_records** - Extract and analyze actual data
 - **🏛️ list_organizations** - Browse government organizations
 - **📋 list_all_datasets** - List all available datasets
+
+### NEW! Expert Analysis Prompts
+- **🍎 food-nutrition-analysis** - Food industry and nutrition data expert
+- **🌱 environmental-sustainability-analysis** - Environmental data analysis
+- **🏘️ real-estate-market-analysis** - Real estate market insights
   
 
 ## 💡 Example Usage
@@ -67,7 +72,17 @@ search_records(resource_id="2202bada-4baf-45f5-aa61-8c5bad9646d3",
                q="תל אביב", limit=10)
 ```
 
-## 🌐 About
+## � What's New in v2.1.0
+
+- **Expert Analysis Prompts**: New AI-powered domain experts for:
+  - Food & Nutrition Analysis
+  - Environmental Sustainability
+  - Real Estate Market Insights
+- **Enhanced Performance**: Improved data retrieval and analysis
+- **Better Hebrew Support**: Enhanced Hebrew text processing
+- **Updated Dependencies**: Latest MCP SDK and core libraries
+
+## �🌐 About
 
 This server connects to [data.gov.il](https://data.gov.il) - Israel's national open data portal with datasets from:
 - Government ministries (Health, Finance, Transportation, etc.)
