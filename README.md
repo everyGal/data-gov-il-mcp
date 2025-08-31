@@ -1,13 +1,15 @@
-````markdown
+
 # Data.gov.il MCP Server
 
 [![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-blue)](https://modelcontextprotocol.io/) [![License: MIT-NC](https://img.shields.io/badge/license-MIT--NC-blue)](LICENSE)
- ![Version](https://img.shields.io/badge/version-2.1.0-blue)> 🇮🇱 **MCP server for accessing Israeli Government Open Data through data.gov.il**
+ ![Version](https://img.shields.io/badge/version-2.1.0-blue)
+
+ 🇮🇱 **MCP server for accessing Israeli Government Open Data through data.gov.il**
 
 Enables Claude and other AI assistants to search, discover, and analyze thousands of government datasets from Israel's open data portal.
 
+<img width="1920" height="544" alt="Gemini_Generated_Image_2ma5vu2ma5vu2ma5" src="https://github.com/user-attachments/assets/a597c2cc-783e-40e3-aaf4-3cf681072dcc" />
 
-![data-gov-mcp-server-tambneil](https://github.com/user-attachments/assets/5dac45a6-882a-4457-b858-c7fe169ff3b3)
 
 ## ⚡ Quick Start
 
@@ -82,7 +84,7 @@ search_records(resource_id="2202bada-4baf-45f5-aa61-8c5bad9646d3",
 - **Better Hebrew Support**: Enhanced Hebrew text processing
 - **Updated Dependencies**: Latest MCP SDK and core libraries
 
-## �🌐 About
+## 🌐 About
 
 This server connects to [data.gov.il](https://data.gov.il) - Israel's national open data portal with datasets from:
 - Government ministries (Health, Finance, Transportation, etc.)
