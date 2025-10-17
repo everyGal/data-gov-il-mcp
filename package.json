@@ -10,7 +10,7 @@
   "type": "module",
   "scripts": {
     "start": "node stdio.js",
-    "start:http": "node http.js",
+    "start:http": "node http-server.js",
     "dev": "node --watch stdio.js",
     "dev:http": "node --watch http.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -52,10 +52,10 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.13.0",
+    "@modelcontextprotocol/sdk": "^1.0.4",
     "axios": "^1.9.0",
     "dotenv": "^17.2.1",
-    "express": "^4.21.2",
+    "express": "^4.18.2",
     "zod": "^3.25.64"
   },
   "publishConfig": {
