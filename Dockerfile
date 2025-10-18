@@ -21,4 +21,4 @@ ENV PORT=3000
 EXPOSE 3000
 
 # Start the HTTP/SSE MCP server (repo contains http-server.js)
-CMD ["node", "http-server.js"]
+CMD ["node", "http.js"]
