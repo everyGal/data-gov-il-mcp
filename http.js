@@ -63,7 +63,7 @@ async function main() {
               console.error(`📡 New MCP session initialized: ${sessionId}`);
             },
             enableDnsRebindingProtection: true,
-            allowedHosts: ['127.0.0.1', 'localhost', `localhost:${PORT}`]
+            allowedHosts: ['127.0.0.1', 'localhost', `localhost:${PORT}`, 'govmcp.n8n.travelposterprints.com']
           });
 
           // Clean up transport when closed
