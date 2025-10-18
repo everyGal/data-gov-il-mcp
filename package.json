@@ -10,7 +10,7 @@
   "type": "module",
   "scripts": {
     "start": "node stdio.js",
-    "start:http": "node http-server.js",
+    "start:http": "node http.js",
     "dev": "node --watch stdio.js",
     "dev:http": "node --watch http.js",
     "test": "echo \"Error: no test specified\" && exit 1"
